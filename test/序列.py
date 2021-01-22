@@ -86,3 +86,32 @@ for index, item in enumerate(verse):
     else:
         print(item + "。")
 '''
+
+'''
+添加元素
+numberlist = []
+a = 6
+while True:
+    if a % 2 == 0:
+        a = a / 2
+    else:
+        a = a * 3 + 1
+        numberlist.append(a)
+        if a == 1:
+            break;
+    print("这个列表是", numberlist)
+'''
+
+'''修改列表元素
+verse = ["长亭外", "古道边", "芳草碧连天"]
+print(verse)
+verse[2] = "一行白鹭上青天"  # 修改列表第二个元素
+print(verse)
+'''
+'''
+verse = ["长亭外", "古道边", "芳草碧连天"]
+del verse[1]                       #根据索引删除列表中的元素
+verse.remove("芳草碧连天")           #根据元素值删除
+print(verse)
+'''
+
